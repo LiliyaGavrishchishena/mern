@@ -2,7 +2,7 @@ import React from 'react';
 
 export const LinkCard = ({ link }) => {
   return (
-    <>
+    <div>
       <h2>Link</h2>
       <p>
         Your link
@@ -26,6 +26,6 @@ export const LinkCard = ({ link }) => {
         Date of creation
         <strong>{new Date(link.date).toLocaleDateString()}</strong>
       </p>
-    </>
+    </div>
   );
 };
